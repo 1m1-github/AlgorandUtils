@@ -27,7 +27,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/algorand/go-algorand-sdk/client/v2/indexer"
+	"github.com/algorand/go-algorand-sdk/v2/client/v2/indexer"
 	// "strconv"
 	// "strings"
 	// "strings"
@@ -51,8 +51,8 @@ import (
 
 // tinygo build -o test.wasm -target wasm ./FairInboxAlgorand.go
 func main() {
-	// encoding_decoding()
 	// fmt.Println("main")
+	// encoding_decoding()
 	// printlog("KKIVEIX6TEL32KM2TIYPSVMA3CEIY3IM4M3HBGSNYXIJMYSQD6HQ")
 	// log_to_int("AAAAAAAAA");
 }
